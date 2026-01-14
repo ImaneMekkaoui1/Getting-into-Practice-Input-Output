@@ -78,9 +78,9 @@ For each element, the program shows:
 
 - Type:
 
-  ** <DIR> for directories
+  **<DIR> for directories
 
-  ** <FILE> for files
+  **<FILE> for files
 
 - Access permissions:
 
@@ -151,7 +151,9 @@ A collection of Product objects is stored in a file named products.dat.
 
 #### **Product Management Output**
 ![Product Add](Screenshot%20TP3/Product%201.png)
+
 ![Product List](Screenshot%20TP3/Product%202.png)
+
 ![Product Save](Screenshot%20TP3/Product%203.png)
 
 ## Getting into Practice: Handling Exceptions
