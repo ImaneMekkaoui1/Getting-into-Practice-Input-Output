@@ -91,7 +91,8 @@ For each element, the program shows:
    * h → hidden (cache file)
 
 
-
+#### **Ls Command Simulation Output**
+![Ls Simulator Output](Screenshot%20TP3/LsSimulator.png)
 
 ### 1.2 Object Serialization – Products Management
 #### Description
@@ -147,7 +148,12 @@ A collection of Product objects is stored in a file named products.dat.
 - Contains the main method
 
 - Provides a menu-driven console interface
-  
+
+#### **Product Management Output**
+![Product Add](Screenshot%20TP3/Product%201.png)
+![Product List](Screenshot%20TP3/Product%202.png)
+![Product Save](Screenshot%20TP3/Product%203.png)
+
 ## Getting into Practice: Handling Exceptions
 ### 2.1 Calculator with Error Handling
 #### Description
@@ -172,7 +178,8 @@ This exercise consists of creating a calculator that safely handles common error
 
 All errors are handled without stopping the program.
 
-
+#### **Calculator Exception Handling**
+![Calculator Output](Screenshot%20TP3/Calculator.png)
 
 ### 2.2 Custom Exception – TooFastException
 #### Description
@@ -199,6 +206,9 @@ This exercise demonstrates the creation and use of a custom checked exception.
       . A speed that triggers the exception
 
 -  Displays the call stack using printStackTrace()
+
+#### **Vehicle Speed Exception (Stack Trace)**
+![Vehicle Output](Screenshot%20TP3/vehicle.png)
 
 # Conclusion
 
