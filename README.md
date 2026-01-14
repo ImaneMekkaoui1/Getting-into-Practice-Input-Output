@@ -118,11 +118,11 @@ A collection of Product objects is stored in a file named products.dat.
 
 - stock
 
-- Implements Serializable
+######  Implements Serializable
 
-- IProduitMetier (Interface)
+###### IProduitMetier (Interface)
 
-- Declares business methods:
+ Declares business methods:
 
 - add(Product p)
 
@@ -134,7 +134,7 @@ A collection of Product objects is stored in a file named products.dat.
 
 - saveAll()
 
-- MetierProduitImpl
+###### MetierProduitImpl
 
 - Implements IProduitMetier
 
@@ -142,7 +142,7 @@ A collection of Product objects is stored in a file named products.dat.
 
 - Handles file loading and saving (products.dat)
 
-- Application
+###### Application
 
 - Contains the main method
 
@@ -154,61 +154,23 @@ A collection of Product objects is stored in a file named products.dat.
 
 This exercise consists of creating a calculator that safely handles common errors.
 
-Implemented Methods
+###### Implemented Methods
 
-divide(a, b)
+- divide(a, b)
 
-Displays an error if division by zero occurs
+  Displays an error if division by zero occurs
 
-convertToNumber(text)
+- convertToNumber(text)
 
-Displays an error if the string is not numeric
+  Displays an error if the string is not numeric
 
-calculate(operation, a, b)
+- calculate(operation, a, b)
 
-Supports +, -, *, /
+  Supports +, -, *, /
 
-Displays an error for unsupported operations
+  Displays an error for unsupported operations
 
 All errors are handled without stopping the program.
-
-brand
-
-price
-
-description
-
-stock
-
-Implements Serializable
-
-IProduitMetier (Interface)
-
-Declares business methods:
-
-add(Product p)
-
-getAll()
-
-findById(long id)
-
-delete(long id)
-
-saveAll()
-
-MetierProduitImpl
-
-Implements IProduitMetier
-
-Manages a list of products
-
-Handles file loading and saving (products.dat)
-
-Application
-
-Contains the main method
-
-Provides a menu-driven console interface
 
 
 
@@ -217,23 +179,41 @@ Provides a menu-driven console interface
 
 This exercise demonstrates the creation and use of a custom checked exception.
 
-Classes
-TooFastException
+##### Classes
+###### TooFastException
 
-Extends Exception
+-  Extends Exception
 
-Displays a message including the speed value
+-  Displays a message including the speed value
 
-Vehicle
+###### Vehicle
 
-Method testSpeed(int speed)
+-  Method testSpeed(int speed)
 
-Throws TooFastException if speed > 90
+-  Throws TooFastException if speed > 90
 
-The main method tests:
+-  The main method tests:
 
-A valid speed
+      . A valid speed
 
-A speed that triggers the exception
+      . A speed that triggers the exception
 
-Displays the call stack using printStackTrace()
+-  Displays the call stack using printStackTrace()
+
+# Conclusion
+
+This practical work allowed us to apply several important Java concepts, including:
+
+* File and directory manipulation
+
+Object serialization and persistence
+
+Interface-based design
+
+Menu-driven console applications
+
+Robust exception handling
+
+Custom exception creation and propagation
+
+Overall, this project helped reinforce both technical skills and good programming practices in Java Object-Oriented Programming.
