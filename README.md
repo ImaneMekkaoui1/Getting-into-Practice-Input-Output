@@ -204,16 +204,16 @@ This exercise demonstrates the creation and use of a custom checked exception.
 
 This practical work allowed us to apply several important Java concepts, including:
 
-* File and directory manipulation
+** File and directory manipulation
 
-Object serialization and persistence
+** Object serialization and persistence
 
-Interface-based design
+** Interface-based design
 
-Menu-driven console applications
+** Menu-driven console applications
 
-Robust exception handling
+** Robust exception handling
 
-Custom exception creation and propagation
+** Custom exception creation and propagation
 
 Overall, this project helped reinforce both technical skills and good programming practices in Java Object-Oriented Programming.
