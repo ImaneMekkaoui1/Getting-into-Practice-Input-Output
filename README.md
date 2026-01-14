@@ -28,37 +28,37 @@ The main objective of this project is to learn how to:
 
 * java.io.File for file and directory manipulation
 
-Reading directory contents
+* Reading directory contents
 
-Checking file permissions (read, write, hidden)
+* Checking file permissions (read, write, hidden)
 
-Object serialization using:
+* Object serialization using:
 
-ObjectOutputStream
+    * ObjectOutputStream
 
-ObjectInputStream
+    * ObjectInputStream
 
-Persistence of objects in a .dat file
+* Persistence of objects in a .dat file
 
 ### Object-Oriented Programming (OOP)
 
-Classes and objects
+- Classes and objects
 
-Interfaces and implementations
+- Interfaces and implementations
 
-Encapsulation of data
+- Encapsulation of data
 
-Menu-driven console applications
+- Menu-driven console applications
 
 ### Exception Handling
 
-try / catch
+- try / catch
 
-throw and throws
+- throw and throws
 
-Custom checked exceptions
+- Custom checked exceptions
 
-Displaying the call stack using printStackTrace()
+- Displaying the call stack using printStackTrace()
 
 
 
@@ -74,21 +74,21 @@ The program asks the user to enter the full path of a directory, then displays a
 
 For each element, the program shows:
 
-Full path
+- Full path
 
-Type:
+- Type:
 
-<DIR> for directories
+  ** <DIR> for directories
 
-<FILE> for files
+  ** <FILE> for files
 
-Access permissions:
+- Access permissions:
 
-r → readable
+   * r → readable
 
-w → writable
+   * w → writable
 
-h → hidden (cache file)
+   * h → hidden (cache file)
 
 
 
