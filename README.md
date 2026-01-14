@@ -100,15 +100,54 @@ This exercise demonstrates how to save and reload objects using Java serializati
 
 A collection of Product objects is stored in a file named products.dat.
 
-Classes and Interface
-Product
 
-Attributes:
+##### Classes and Interface
+###### Product
 
-id
+###### Attributes:
 
-name
+- id
 
+- name
+
+- brand
+
+- price
+
+- description
+
+- stock
+
+- Implements Serializable
+
+- IProduitMetier (Interface)
+
+- Declares business methods:
+
+- add(Product p)
+
+- getAll()
+
+- findById(long id)
+
+- delete(long id)
+
+- saveAll()
+
+- MetierProduitImpl
+
+- Implements IProduitMetier
+
+- Manages a list of products
+
+- Handles file loading and saving (products.dat)
+
+- Application
+
+- Contains the main method
+
+- Provides a menu-driven console interface
+  
 ## Getting into Practice: Handling Exceptions
 ### 2.1 Calculator with Error Handling
 #### Description
